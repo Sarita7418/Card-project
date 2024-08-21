@@ -14,3 +14,58 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 66px;
+  color: var(--Very-light-gray);
+  background-color: var(--Very-light-gray);
+}
+
+.cards-container{
+  margin: 220px 60px;
+  border: 5px solid currentColor;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.cards-container div{
+  padding: 110px;
+}
+
+.cards-container h2 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+}
+
+.cards-container p {
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--Transparent-white);
+}
+
+.cards-container input{
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--cardbg-color);
+  background-color: var(--Very-light-gray);
+}
+
+.cards-container img{
+  width: 160px;
+}
+
+.sedan-card{
+  --cardbg-color: var(--Bright-orange);
+  background-color: var(--Bright-orange);
+}
+
+.suv-card{
+  --cardbg-color: var(--Dark-cyan);
+  background-color: var(--Dark-cyan);
+}
+
+.luxury-card{
+  --cardbg-color: var(--Very-dark-cyan);
+  background-color: var(--Very-dark-cyan);
+}
