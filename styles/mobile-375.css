@@ -28,19 +28,22 @@ body{
 }
 
 .cards-container div{
-  padding: 110px;
+  padding: 120px;
 }
 
 .cards-container h2 {
   font-family: 'Big Shoulders Display';
-  font-weight: 700;
+  font-weight: 600;
+  padding: 70px 0;
 }
 
 .cards-container p {
   font-family: 'Lexend Deca';
-  font-weight: 400;
+  font-weight: 200;
   font-size: 15px;
   color: var(--Transparent-white);
+  padding: 0 0 80px;
+  line-height: 65px;
 }
 
 .cards-container input{
@@ -49,6 +52,9 @@ body{
   font-size: 40px;
   color: var(--cardbg-color);
   background-color: var(--Very-light-gray);
+  padding: 30px 75px;
+  border: 0 solid currentColor;
+  border-radius: 70px;
 }
 
 .cards-container img{
